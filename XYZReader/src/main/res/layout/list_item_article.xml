@@ -61,6 +61,7 @@
             app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="@+id/article_title"
             app:layout_constraintTop_toBottomOf="@+id/article_title" />
+
     </android.support.constraint.ConstraintLayout>
 
 </android.support.v7.widget.CardView>
