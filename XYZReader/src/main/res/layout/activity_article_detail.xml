@@ -23,8 +23,9 @@
 
             <ImageButton
                 android:id="@+id/action_up"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
                 android:background="?selectableItemBackgroundBorderless"
                 android:contentDescription="@string/up"
                 android:src="@drawable/ic_arrow_back" />
