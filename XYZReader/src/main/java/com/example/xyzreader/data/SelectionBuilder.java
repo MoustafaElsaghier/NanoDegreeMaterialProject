@@ -43,7 +43,6 @@ public class SelectionBuilder {
     private ArrayList<String> mSelectionArgs;
 
 
-
     /**
      * Append the given selection clause to the internal state. Each clause is
      * surrounded with parenthesis and combined using {@code AND}.
@@ -95,7 +94,7 @@ public class SelectionBuilder {
 
     private void ensureSelectionArgs() {
     	if (mSelectionArgs == null) {
-    		mSelectionArgs = new ArrayList<String>();
+    		mSelectionArgs = new ArrayList<>();
     	}
     }
 
