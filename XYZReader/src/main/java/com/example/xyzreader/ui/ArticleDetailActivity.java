@@ -66,6 +66,7 @@ public class ArticleDetailActivity extends AppCompatActivity
                         .setDuration(300);
             }
 
+
             @Override
             public void onPageSelected(int position) {
                 if (mCursor != null) {

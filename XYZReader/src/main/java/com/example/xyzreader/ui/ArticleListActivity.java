@@ -115,7 +115,7 @@ public class ArticleListActivity extends AppCompatActivity implements
         StaggeredGridLayoutManager sglm =
                 new StaggeredGridLayoutManager(columnCount, StaggeredGridLayoutManager.VERTICAL);
         mRecyclerView.setLayoutManager(sglm);
-        Snackbar.make(getCurrentFocus(),"Success Loading data" , Snackbar.LENGTH_LONG);
+        Snackbar.make(getCurrentFocus(), "Success Loading data", Snackbar.LENGTH_LONG).show();
     }
 
     @Override

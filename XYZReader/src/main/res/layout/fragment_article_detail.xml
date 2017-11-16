@@ -21,8 +21,8 @@
                 <ImageView
                     android:id="@+id/photo"
                     android:layout_width="match_parent"
-                    android:scaleType="centerCrop"
-                    android:layout_height="match_parent" />
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop" />
 
                 <View
                     android:layout_width="match_parent"
@@ -50,8 +50,8 @@
                     android:background="#FFF"
                     android:orientation="vertical"
                     android:paddingBottom="@dimen/detail_metabar_vert_padding"
-                    android:paddingLeft="@dimen/detail_inner_horiz_margin"
-                    android:paddingRight="@dimen/detail_inner_horiz_margin"
+                    android:paddingEnd="@dimen/detail_inner_horiz_margin"
+                    android:paddingStart="@dimen/detail_inner_horiz_margin"
                     android:paddingTop="@dimen/detail_metabar_vert_padding">
 
                     <TextView
@@ -62,7 +62,7 @@
                         android:fontFamily="sans-serif-condensed"
                         android:lineSpacingMultiplier="0.9"
                         android:paddingBottom="@dimen/detail_metabar_title_bottom_padding"
-                        android:textColor="#000"
+                        android:textColor="#FFF"
                         android:textSize="@dimen/detail_title_text_size"
                         android:textStyle="bold" />
 
@@ -71,7 +71,7 @@
                         style="?android:attr/textAppearanceSmall"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="#8111" />
+                        android:textColor="#BBB" />
                 </LinearLayout>
 
                 <TextView
@@ -84,7 +84,6 @@
                     android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
                     android:paddingBottom="@dimen/detail_body_bottom_margin"
                     android:textColor="@color/ltgray"
-                    android:textColorLink="@color/colorAccent"
                     android:textSize="@dimen/detail_body_text_size" />
 
             </com.example.xyzreader.ui.MaxWidthLinearLayout>
@@ -97,10 +96,8 @@
         android:layout_height="56dp"
         android:layout_gravity="bottom|end"
         android:layout_marginBottom="@dimen/fab_margin"
-        android:layout_marginRight="@dimen/fab_margin"
-        android:background="@drawable/add_fab_background"
+        android:layout_marginEnd="@dimen/fab_margin"
         android:contentDescription="@string/action_share"
-        android:elevation="@dimen/fab_elevation"
         android:src="@drawable/ic_share" />
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
